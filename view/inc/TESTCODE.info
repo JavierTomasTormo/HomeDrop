@@ -1,0 +1,71 @@
+
+                        <!--/*
+                            <div class="grande">
+                            <?php $lang = $v['Habitaciones'] ?>
+                                <select class="pointer" name="Habitaciones" id="Habitaciones" placeholder="Habitaciones">
+                                
+                                    <?php #<!--1 Habitacion en Array-->
+                                    $busca_array=in_array("1"); 
+                                    if ($busca_array){
+                                    ?>    
+                                        <option value="1" selected>1 Habitación</option>
+                                    <?php }else{ ?>
+
+                                        <option value="1">1 Habitación</option>
+                                    <?php } ?>
+
+                                
+                                    <?php #<!--2 Habitaciones en Array-->
+                                    $busca_array=in_array("2");
+                                    if($busca_array){
+                                    ?>    
+                                        <option value="2" selected>2 Habitaciones</option>
+                                    <?php }else{ ?>
+
+                                        <option value="2">2 Habitaciones</option>
+                                    <?php } ?>
+                                                                        
+                                
+                                    <?php #<!--3 Habitaciones en Array-->
+                                    $busca_array=in_array("3"); 
+                                    if($busca_array){
+                                    ?>    
+                                        <option value="3" selected>3 Habitaciones</option>  
+                                    <?php }else{ ?>
+
+                                        <option value="3">3 Habitaciones</option>
+                                    <?php } ?>
+
+                                
+                                    <?php #<!--4 Habitaciones en Array-->
+                                    $busca_array=in_array("4"); 
+                                    if($busca_array){
+                                    ?>    
+                                        <option value="4" selected>4 Habitaciones</option>
+                                    <?php }else{ ?>
+                                        <option value="4">4 Habitaciones</option>
+                                    <?php } ?>
+
+                                
+                                    <?php #<!--5 Habitaciones en Array-->
+                                    $busca_array=in_array("5"); 
+                                    if($busca_array){
+                                    ?>    
+                                        <option value="5" selected>5 Habitaciones</option>
+                                    <?php }else{ ?>
+                                        <option value="5">5 Habitaciones</option>
+                                    <?php } ?>
+
+                               
+                                    <?php  #<!--6 Habitaciones en Array-->
+                                    $busca_array=in_array("6");     
+                                    if($busca_array){
+                                    ?>    
+                                        <option value="6" selected>6 o + Habitaciones</option>
+                                    <?php }else{ ?>
+                                        <option value="6">6 o + Habitaciones</option>
+                                    <?php } ?>
+                                                                  
+                                </select>   
+                            </div>
+                        */-->
